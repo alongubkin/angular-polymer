@@ -1,0 +1,27 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	background-color: #E5E5E5;
+	font-family: 'RobotoDraft', sans-serif;
+}
+
+core-header-panel {
+  background: white;
+}
+core-toolbar {
+  background-color: #03A9F4;
+  color: #f1f1f1;
+  fill: #f1f1f1;
+}
+#navheader {
+  background-color: #56BA89;
+}
+.content {
+  padding: 20px;
+}
+/* drawer is always visible on a wide screen
+   so menu button isn't required */
+core-drawer-panel:not([narrow]) #navicon {
+  display: none;
+}
+
